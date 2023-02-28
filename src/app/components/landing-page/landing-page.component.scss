@@ -7,10 +7,11 @@
     margin-top: 4vh;
 
     h1 {
-      max-width: 250px;
+      margin-top: 3vh;
+      max-width: 300px;
       word-wrap: break-word;
-      color: #000222;
-      font-size: 45px;
+      color: #000437;
+      font-size: 50px;
       font-weight: 700;
 
       span {
@@ -32,8 +33,14 @@
       border-radius: 50px;
       background-color: #eb5858;
       color: #fff;
-      font-size: 18px;
+      font-size: 22px;
       font-weight: 600;
+      transition: 0.3s all ease;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
     }
   }
 }
