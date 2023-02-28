@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+
+  &__items {
+    margin-top: 4vh;
+
+    h1 {
+      max-width: 250px;
+      word-wrap: break-word;
+      color: #000222;
+      font-size: 45px;
+      font-weight: 700;
+
+      span {
+        color: #eb5858;
+      }
+    }
+
+    p {
+      margin-top: 2vh;
+      font-size: 18px;
+      color: #00000092;
+    }
+
+    button {
+      margin-top: 3vh;
+      width: 348px;
+      height: 67px;
+      border: none;
+      border-radius: 50px;
+      background-color: #eb5858;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
